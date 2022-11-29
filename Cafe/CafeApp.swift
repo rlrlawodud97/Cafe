@@ -11,7 +11,11 @@ import SwiftUI
 struct CafeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
+                .accentColor(.green)
         }
     }
 }
+
+//UIKit: tintColor
+//SwiftUI: accentColor

@@ -7,16 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262024022931D822002135E6 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262024012931D822002135E6 /* Tab.swift */; };
+		262024062931ED53002135E6 /* MenuSuggestionSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262024052931ED53002135E6 /* MenuSuggestionSectionView.swift */; };
+		262671D829349CE7002BBA0C /* EventsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262671D729349CE7002BBA0C /* EventsSectionView.swift */; };
+		262671DA29349D8B002BBA0C /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262671D929349D8B002BBA0C /* Event.swift */; };
+		262671DC2934A412002BBA0C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262671DB2934A412002BBA0C /* HomeView.swift */; };
+		262671DE2934A4C3002BBA0C /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262671DD2934A4C3002BBA0C /* HomeHeaderView.swift */; };
+		262671E12934A8FF002BBA0C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262671E02934A8FF002BBA0C /* User.swift */; };
+		2628D3122934D8A200BC6563 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628D3112934D8A200BC6563 /* OtherView.swift */; };
+		2628D3142934DACD00BC6563 /* SettingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628D3132934DACD00BC6563 /* SettingMenu.swift */; };
+		2628D3172934E29D00BC6563 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2628D3162934E29D00BC6563 /* SettingView.swift */; };
+		2629482B293390E9002B6941 /* CoffeeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2629482A293390E9002B6941 /* CoffeeMenu.swift */; };
+		262A2A872935DC6300CC413C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A2A862935DC6300CC413C /* HomeViewModel.swift */; };
 		2683BFA32930C113006D59C0 /* CafeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2683BFA22930C113006D59C0 /* CafeApp.swift */; };
-		2683BFA52930C113006D59C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2683BFA42930C113006D59C0 /* ContentView.swift */; };
+		2683BFA52930C113006D59C0 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2683BFA42930C113006D59C0 /* MainTabView.swift */; };
 		2683BFA72930C114006D59C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2683BFA62930C114006D59C0 /* Assets.xcassets */; };
 		2683BFAA2930C114006D59C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2683BFA92930C114006D59C0 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		262024012931D822002135E6 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		262024052931ED53002135E6 /* MenuSuggestionSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSuggestionSectionView.swift; sourceTree = "<group>"; };
+		262671D729349CE7002BBA0C /* EventsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsSectionView.swift; sourceTree = "<group>"; };
+		262671D929349D8B002BBA0C /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		262671DB2934A412002BBA0C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		262671DD2934A4C3002BBA0C /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		262671E02934A8FF002BBA0C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2628D3112934D8A200BC6563 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
+		2628D3132934DACD00BC6563 /* SettingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingMenu.swift; sourceTree = "<group>"; };
+		2628D3162934E29D00BC6563 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		2629482A293390E9002B6941 /* CoffeeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMenu.swift; sourceTree = "<group>"; };
+		262A2A862935DC6300CC413C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		2683BF9F2930C113006D59C0 /* Cafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2683BFA22930C113006D59C0 /* CafeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeApp.swift; sourceTree = "<group>"; };
-		2683BFA42930C113006D59C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2683BFA42930C113006D59C0 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		2683BFA62930C114006D59C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2683BFA92930C114006D59C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +56,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		262024032931ED15002135E6 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				2683BFA42930C113006D59C0 /* MainTabView.swift */,
+				262024012931D822002135E6 /* Tab.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		262024042931ED26002135E6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				262024032931ED15002135E6 /* Tab */,
+				262671DF2934A4C8002BBA0C /* Home */,
+				2628D3152934E28600BC6563 /* Other */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		262671DF2934A4C8002BBA0C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				262671DB2934A412002BBA0C /* HomeView.swift */,
+				262671DD2934A4C3002BBA0C /* HomeHeaderView.swift */,
+				262024052931ED53002135E6 /* MenuSuggestionSectionView.swift */,
+				262671D729349CE7002BBA0C /* EventsSectionView.swift */,
+				262A2A862935DC6300CC413C /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2628D3152934E28600BC6563 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2628D3112934D8A200BC6563 /* OtherView.swift */,
+				2628D3132934DACD00BC6563 /* SettingMenu.swift */,
+				2628D3162934E29D00BC6563 /* SettingView.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		2683BF962930C113006D59C0 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +117,10 @@
 			isa = PBXGroup;
 			children = (
 				2683BFA22930C113006D59C0 /* CafeApp.swift */,
-				2683BFA42930C113006D59C0 /* ContentView.swift */,
+				2629482A293390E9002B6941 /* CoffeeMenu.swift */,
+				262671D929349D8B002BBA0C /* Event.swift */,
+				262671E02934A8FF002BBA0C /* User.swift */,
+				262024042931ED26002135E6 /* Scenes */,
 				2683BFA62930C114006D59C0 /* Assets.xcassets */,
 				2683BFA82930C114006D59C0 /* Preview Content */,
 			);
@@ -137,8 +205,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2683BFA52930C113006D59C0 /* ContentView.swift in Sources */,
+				262024022931D822002135E6 /* Tab.swift in Sources */,
+				2683BFA52930C113006D59C0 /* MainTabView.swift in Sources */,
+				2629482B293390E9002B6941 /* CoffeeMenu.swift in Sources */,
+				262671DE2934A4C3002BBA0C /* HomeHeaderView.swift in Sources */,
+				262671D829349CE7002BBA0C /* EventsSectionView.swift in Sources */,
+				2628D3122934D8A200BC6563 /* OtherView.swift in Sources */,
 				2683BFA32930C113006D59C0 /* CafeApp.swift in Sources */,
+				262671DC2934A412002BBA0C /* HomeView.swift in Sources */,
+				2628D3172934E29D00BC6563 /* SettingView.swift in Sources */,
+				262A2A872935DC6300CC413C /* HomeViewModel.swift in Sources */,
+				262671DA29349D8B002BBA0C /* Event.swift in Sources */,
+				262671E12934A8FF002BBA0C /* User.swift in Sources */,
+				262024062931ED53002135E6 /* MenuSuggestionSectionView.swift in Sources */,
+				2628D3142934DACD00BC6563 /* SettingMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
